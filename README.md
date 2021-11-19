@@ -1,5 +1,18 @@
 # Cloud Infrastructor Provider
 
+## Introduction to Problem
+
+* The purpose of this project is to create a library for a company to create and maintain their cloud
+infrastructure efficiently without needing to have deep knowledge about different cloud providers. This
+library will introduce apis and abstractions that developers can use to design and implement cloud
+agnostic infrastructure. The client wants to start the first phase by supporting only virtual machines and
+database servers. But they would want more resources (i.e. load balancers, elastic file storage etc) at later
+stages. They want to be able to create both Windows and Linux instances. For database servers they want
+support for both MySQL and SQL Server. The client wants to be able to create multiple infrastructures as
+well, for example they want to create a UAT infrastructure for one project and a Test infrastructure for
+their internal team.
+The project is about creating a class library that provides interfaces for creating infrastructure resources
+
 ## A web api sample application who covers following area:
 
 
